@@ -1,0 +1,568 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F24E8F30B0CF6F1007679D0 /* atamai.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 1F24E8F20B0CF6F1007679D0 /* atamai.tiff */; };
+		1F24E8F50B0CF6F9007679D0 /* pan.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 1F24E8F40B0CF6F9007679D0 /* pan.tiff */; };
+		1F24E8F70B0CF6FE007679D0 /* rotate.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 1F24E8F60B0CF6FE007679D0 /* rotate.tiff */; };
+		1F24E8FA0B0CF707007679D0 /* slice.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 1F24E8F90B0CF707007679D0 /* slice.tiff */; };
+		1F24E8FC0B0CF710007679D0 /* winlev.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 1F24E8FB0B0CF710007679D0 /* winlev.tiff */; };
+		1F24E8FE0B0CF717007679D0 /* zoom.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 1F24E8FD0B0CF717007679D0 /* zoom.tiff */; };
+		1FB4C51A0B0D1425000AC966 /* CLUTs in Resources */ = {isa = PBXBuildFile; fileRef = 1FB4C5050B0D1425000AC966 /* CLUTs */; };
+		1FBFBB6C0B0CF0F500D187C4 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FBFBB6B0B0CF0F500D187C4 /* OpenGL.framework */; };
+		1FBFBB920B0CF19B00D187C4 /* MainController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1FBFBB8D0B0CF19B00D187C4 /* MainController.mm */; };
+		1FBFBB930B0CF19B00D187C4 /* OrthoPlanesView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1FBFBB8F0B0CF19B00D187C4 /* OrthoPlanesView.mm */; };
+		1FBFBB940B0CF19B00D187C4 /* WLWidgetView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1FBFBB910B0CF19B00D187C4 /* WLWidgetView.mm */; };
+		8C417DA111154503004F0F29 /* libMapReduceMPI.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C417D8011154503004F0F29 /* libMapReduceMPI.a */; };
+		8C417DA211154503004F0F29 /* libmpistubs.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C417D8111154503004F0F29 /* libmpistubs.a */; };
+		8C417DA311154503004F0F29 /* libvtkalglib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C417D8211154503004F0F29 /* libvtkalglib.a */; };
+		8C417DA411154503004F0F29 /* libvtkCharts.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C417D8311154503004F0F29 /* libvtkCharts.a */; };
+		8C417DA511154503004F0F29 /* libvtkCommon.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C417D8411154503004F0F29 /* libvtkCommon.a */; };
+		8C417DA611154503004F0F29 /* libvtkDICOMParser.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C417D8511154503004F0F29 /* libvtkDICOMParser.a */; };
+		8C417DA711154503004F0F29 /* libvtkexoIIc.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C417D8611154503004F0F29 /* libvtkexoIIc.a */; };
+		8C417DA811154503004F0F29 /* libvtkexpat.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C417D8711154503004F0F29 /* libvtkexpat.a */; };
+		8C417DA911154503004F0F29 /* libvtkFiltering.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C417D8811154503004F0F29 /* libvtkFiltering.a */; };
+		8C417DAA11154503004F0F29 /* libvtkfreetype.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C417D8911154503004F0F29 /* libvtkfreetype.a */; };
+		8C417DAB11154503004F0F29 /* libvtkftgl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C417D8A11154503004F0F29 /* libvtkftgl.a */; };
+		8C417DAC11154503004F0F29 /* libvtkGenericFiltering.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C417D8B11154503004F0F29 /* libvtkGenericFiltering.a */; };
+		8C417DAD11154503004F0F29 /* libvtkGeovis.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C417D8C11154503004F0F29 /* libvtkGeovis.a */; };
+		8C417DAE11154503004F0F29 /* libvtkGraphics.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C417D8D11154503004F0F29 /* libvtkGraphics.a */; };
+		8C417DAF11154503004F0F29 /* libvtkHybrid.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C417D8E11154503004F0F29 /* libvtkHybrid.a */; };
+		8C417DB011154504004F0F29 /* libvtkImaging.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C417D8F11154503004F0F29 /* libvtkImaging.a */; };
+		8C417DB111154504004F0F29 /* libvtkInfovis.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C417D9011154503004F0F29 /* libvtkInfovis.a */; };
+		8C417DB211154504004F0F29 /* libvtkIO.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C417D9111154503004F0F29 /* libvtkIO.a */; };
+		8C417DB311154504004F0F29 /* libvtkjpeg.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C417D9211154503004F0F29 /* libvtkjpeg.a */; };
+		8C417DB411154504004F0F29 /* libvtklibxml2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C417D9311154503004F0F29 /* libvtklibxml2.a */; };
+		8C417DB511154504004F0F29 /* libvtkmetaio.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C417D9411154503004F0F29 /* libvtkmetaio.a */; };
+		8C417DB611154504004F0F29 /* libvtkNetCDF.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C417D9511154503004F0F29 /* libvtkNetCDF.a */; };
+		8C417DB711154504004F0F29 /* libvtkParallel.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C417D9611154503004F0F29 /* libvtkParallel.a */; };
+		8C417DB811154504004F0F29 /* libvtkpng.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C417D9711154503004F0F29 /* libvtkpng.a */; };
+		8C417DB911154504004F0F29 /* libvtkproj4.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C417D9811154503004F0F29 /* libvtkproj4.a */; };
+		8C417DBA11154504004F0F29 /* libvtkRendering.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C417D9911154503004F0F29 /* libvtkRendering.a */; };
+		8C417DBB11154504004F0F29 /* libvtksqlite.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C417D9A11154503004F0F29 /* libvtksqlite.a */; };
+		8C417DBC11154504004F0F29 /* libvtksys.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C417D9B11154503004F0F29 /* libvtksys.a */; };
+		8C417DBD11154504004F0F29 /* libvtktiff.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C417D9C11154503004F0F29 /* libvtktiff.a */; };
+		8C417DBE11154504004F0F29 /* libvtkverdict.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C417D9D11154503004F0F29 /* libvtkverdict.a */; };
+		8C417DBF11154504004F0F29 /* libvtkViews.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C417D9E11154503004F0F29 /* libvtkViews.a */; };
+		8C417DC011154504004F0F29 /* libvtkVolumeRendering.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C417D9F11154503004F0F29 /* libvtkVolumeRendering.a */; };
+		8C417DC111154504004F0F29 /* libvtkWidgets.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C417DA011154503004F0F29 /* libvtkWidgets.a */; };
+		8D11072A0486CEB800E47090 /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = 29B97318FDCFA39411CA2CEA /* MainMenu.nib */; };
+		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		13E42FB307B3F0F600E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		1F24E8F20B0CF6F1007679D0 /* atamai.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = atamai.tiff; sourceTree = "<group>"; };
+		1F24E8F40B0CF6F9007679D0 /* pan.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = pan.tiff; sourceTree = "<group>"; };
+		1F24E8F60B0CF6FE007679D0 /* rotate.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = rotate.tiff; sourceTree = "<group>"; };
+		1F24E8F90B0CF707007679D0 /* slice.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = slice.tiff; sourceTree = "<group>"; };
+		1F24E8FB0B0CF710007679D0 /* winlev.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = winlev.tiff; sourceTree = "<group>"; };
+		1F24E8FD0B0CF717007679D0 /* zoom.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = zoom.tiff; sourceTree = "<group>"; };
+		1F90D2070B0CFC33008E848B /* BUILD.txt */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text; path = BUILD.txt; sourceTree = "<group>"; };
+		1FB4C5050B0D1425000AC966 /* CLUTs */ = {isa = PBXFileReference; lastKnownFileType = folder; path = CLUTs; sourceTree = "<group>"; };
+		1FBFBB6B0B0CF0F500D187C4 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = /System/Library/Frameworks/OpenGL.framework; sourceTree = "<absolute>"; };
+		1FBFBB700B0CF14300D187C4 /* ApplicationDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ApplicationDelegate.m; sourceTree = "<group>"; };
+		1FBFBB720B0CF14300D187C4 /* BlackBody.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = BlackBody.plist; sourceTree = "<group>"; };
+		1FBFBB730B0CF14300D187C4 /* Cardiac.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Cardiac.plist; sourceTree = "<group>"; };
+		1FBFBB740B0CF14300D187C4 /* Flow.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Flow.plist; sourceTree = "<group>"; };
+		1FBFBB750B0CF14300D187C4 /* GEcolor.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = GEcolor.plist; sourceTree = "<group>"; };
+		1FBFBB760B0CF14300D187C4 /* GrayRainbow.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = GrayRainbow.plist; sourceTree = "<group>"; };
+		1FBFBB770B0CF14300D187C4 /* HotGreen.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = HotGreen.plist; sourceTree = "<group>"; };
+		1FBFBB780B0CF14300D187C4 /* HotIron.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = HotIron.plist; sourceTree = "<group>"; };
+		1FBFBB790B0CF14300D187C4 /* HotMetal.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = HotMetal.plist; sourceTree = "<group>"; };
+		1FBFBB7A0B0CF14300D187C4 /* Hue1.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Hue1.plist; sourceTree = "<group>"; };
+		1FBFBB7B0B0CF14300D187C4 /* Hue2.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Hue2.plist; sourceTree = "<group>"; };
+		1FBFBB7C0B0CF14300D187C4 /* NIH.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = NIH.plist; sourceTree = "<group>"; };
+		1FBFBB7D0B0CF14300D187C4 /* Rainbow.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Rainbow.plist; sourceTree = "<group>"; };
+		1FBFBB7E0B0CF14300D187C4 /* Rainbow2.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Rainbow2.plist; sourceTree = "<group>"; };
+		1FBFBB7F0B0CF14300D187C4 /* Rainbow3.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Rainbow3.plist; sourceTree = "<group>"; };
+		1FBFBB800B0CF14300D187C4 /* Spectrum.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Spectrum.plist; sourceTree = "<group>"; };
+		1FBFBB810B0CF14300D187C4 /* UCLA.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = UCLA.plist; sourceTree = "<group>"; };
+		1FBFBB820B0CF14300D187C4 /* VR Bones.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VR Bones.plist"; sourceTree = "<group>"; };
+		1FBFBB830B0CF14300D187C4 /* VR Muscles-Bones.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VR Muscles-Bones.plist"; sourceTree = "<group>"; };
+		1FBFBB840B0CF14300D187C4 /* VR Red Vessels.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VR Red Vessels.plist"; sourceTree = "<group>"; };
+		1FBFBB860B0CF14300D187C4 /* atamai.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = atamai.tiff; sourceTree = "<group>"; };
+		1FBFBB870B0CF14300D187C4 /* pan.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = pan.tiff; sourceTree = "<group>"; };
+		1FBFBB880B0CF14300D187C4 /* rotate.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = rotate.tiff; sourceTree = "<group>"; };
+		1FBFBB890B0CF14300D187C4 /* slice.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = slice.tiff; sourceTree = "<group>"; };
+		1FBFBB8A0B0CF14300D187C4 /* winlev.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = winlev.tiff; sourceTree = "<group>"; };
+		1FBFBB8B0B0CF14300D187C4 /* zoom.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = zoom.tiff; sourceTree = "<group>"; };
+		1FBFBB8C0B0CF19B00D187C4 /* MainController.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = MainController.h; sourceTree = "<group>"; };
+		1FBFBB8D0B0CF19B00D187C4 /* MainController.mm */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.objcpp; path = MainController.mm; sourceTree = "<group>"; };
+		1FBFBB8E0B0CF19B00D187C4 /* OrthoPlanesView.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = OrthoPlanesView.h; sourceTree = "<group>"; };
+		1FBFBB8F0B0CF19B00D187C4 /* OrthoPlanesView.mm */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.objcpp; path = OrthoPlanesView.mm; sourceTree = "<group>"; };
+		1FBFBB900B0CF19B00D187C4 /* WLWidgetView.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = WLWidgetView.h; sourceTree = "<group>"; };
+		1FBFBB910B0CF19B00D187C4 /* WLWidgetView.mm */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.objcpp; path = WLWidgetView.mm; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29B97319FDCFA39411CA2CEA /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/MainMenu.nib; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		32CA4F630368D1EE00C91783 /* epilepsia_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = epilepsia_Prefix.pch; sourceTree = "<group>"; };
+		8C417D8011154503004F0F29 /* libMapReduceMPI.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libMapReduceMPI.a; path = ../VTKCocoaBin/bin/libMapReduceMPI.a; sourceTree = SOURCE_ROOT; };
+		8C417D8111154503004F0F29 /* libmpistubs.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libmpistubs.a; path = ../VTKCocoaBin/bin/libmpistubs.a; sourceTree = SOURCE_ROOT; };
+		8C417D8211154503004F0F29 /* libvtkalglib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libvtkalglib.a; path = ../VTKCocoaBin/bin/libvtkalglib.a; sourceTree = SOURCE_ROOT; };
+		8C417D8311154503004F0F29 /* libvtkCharts.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libvtkCharts.a; path = ../VTKCocoaBin/bin/libvtkCharts.a; sourceTree = SOURCE_ROOT; };
+		8C417D8411154503004F0F29 /* libvtkCommon.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libvtkCommon.a; path = ../VTKCocoaBin/bin/libvtkCommon.a; sourceTree = SOURCE_ROOT; };
+		8C417D8511154503004F0F29 /* libvtkDICOMParser.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libvtkDICOMParser.a; path = ../VTKCocoaBin/bin/libvtkDICOMParser.a; sourceTree = SOURCE_ROOT; };
+		8C417D8611154503004F0F29 /* libvtkexoIIc.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libvtkexoIIc.a; path = ../VTKCocoaBin/bin/libvtkexoIIc.a; sourceTree = SOURCE_ROOT; };
+		8C417D8711154503004F0F29 /* libvtkexpat.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libvtkexpat.a; path = ../VTKCocoaBin/bin/libvtkexpat.a; sourceTree = SOURCE_ROOT; };
+		8C417D8811154503004F0F29 /* libvtkFiltering.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libvtkFiltering.a; path = ../VTKCocoaBin/bin/libvtkFiltering.a; sourceTree = SOURCE_ROOT; };
+		8C417D8911154503004F0F29 /* libvtkfreetype.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libvtkfreetype.a; path = ../VTKCocoaBin/bin/libvtkfreetype.a; sourceTree = SOURCE_ROOT; };
+		8C417D8A11154503004F0F29 /* libvtkftgl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libvtkftgl.a; path = ../VTKCocoaBin/bin/libvtkftgl.a; sourceTree = SOURCE_ROOT; };
+		8C417D8B11154503004F0F29 /* libvtkGenericFiltering.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libvtkGenericFiltering.a; path = ../VTKCocoaBin/bin/libvtkGenericFiltering.a; sourceTree = SOURCE_ROOT; };
+		8C417D8C11154503004F0F29 /* libvtkGeovis.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libvtkGeovis.a; path = ../VTKCocoaBin/bin/libvtkGeovis.a; sourceTree = SOURCE_ROOT; };
+		8C417D8D11154503004F0F29 /* libvtkGraphics.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libvtkGraphics.a; path = ../VTKCocoaBin/bin/libvtkGraphics.a; sourceTree = SOURCE_ROOT; };
+		8C417D8E11154503004F0F29 /* libvtkHybrid.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libvtkHybrid.a; path = ../VTKCocoaBin/bin/libvtkHybrid.a; sourceTree = SOURCE_ROOT; };
+		8C417D8F11154503004F0F29 /* libvtkImaging.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libvtkImaging.a; path = ../VTKCocoaBin/bin/libvtkImaging.a; sourceTree = SOURCE_ROOT; };
+		8C417D9011154503004F0F29 /* libvtkInfovis.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libvtkInfovis.a; path = ../VTKCocoaBin/bin/libvtkInfovis.a; sourceTree = SOURCE_ROOT; };
+		8C417D9111154503004F0F29 /* libvtkIO.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libvtkIO.a; path = ../VTKCocoaBin/bin/libvtkIO.a; sourceTree = SOURCE_ROOT; };
+		8C417D9211154503004F0F29 /* libvtkjpeg.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libvtkjpeg.a; path = ../VTKCocoaBin/bin/libvtkjpeg.a; sourceTree = SOURCE_ROOT; };
+		8C417D9311154503004F0F29 /* libvtklibxml2.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libvtklibxml2.a; path = ../VTKCocoaBin/bin/libvtklibxml2.a; sourceTree = SOURCE_ROOT; };
+		8C417D9411154503004F0F29 /* libvtkmetaio.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libvtkmetaio.a; path = ../VTKCocoaBin/bin/libvtkmetaio.a; sourceTree = SOURCE_ROOT; };
+		8C417D9511154503004F0F29 /* libvtkNetCDF.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libvtkNetCDF.a; path = ../VTKCocoaBin/bin/libvtkNetCDF.a; sourceTree = SOURCE_ROOT; };
+		8C417D9611154503004F0F29 /* libvtkParallel.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libvtkParallel.a; path = ../VTKCocoaBin/bin/libvtkParallel.a; sourceTree = SOURCE_ROOT; };
+		8C417D9711154503004F0F29 /* libvtkpng.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libvtkpng.a; path = ../VTKCocoaBin/bin/libvtkpng.a; sourceTree = SOURCE_ROOT; };
+		8C417D9811154503004F0F29 /* libvtkproj4.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libvtkproj4.a; path = ../VTKCocoaBin/bin/libvtkproj4.a; sourceTree = SOURCE_ROOT; };
+		8C417D9911154503004F0F29 /* libvtkRendering.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libvtkRendering.a; path = ../VTKCocoaBin/bin/libvtkRendering.a; sourceTree = SOURCE_ROOT; };
+		8C417D9A11154503004F0F29 /* libvtksqlite.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libvtksqlite.a; path = ../VTKCocoaBin/bin/libvtksqlite.a; sourceTree = SOURCE_ROOT; };
+		8C417D9B11154503004F0F29 /* libvtksys.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libvtksys.a; path = ../VTKCocoaBin/bin/libvtksys.a; sourceTree = SOURCE_ROOT; };
+		8C417D9C11154503004F0F29 /* libvtktiff.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libvtktiff.a; path = ../VTKCocoaBin/bin/libvtktiff.a; sourceTree = SOURCE_ROOT; };
+		8C417D9D11154503004F0F29 /* libvtkverdict.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libvtkverdict.a; path = ../VTKCocoaBin/bin/libvtkverdict.a; sourceTree = SOURCE_ROOT; };
+		8C417D9E11154503004F0F29 /* libvtkViews.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libvtkViews.a; path = ../VTKCocoaBin/bin/libvtkViews.a; sourceTree = SOURCE_ROOT; };
+		8C417D9F11154503004F0F29 /* libvtkVolumeRendering.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libvtkVolumeRendering.a; path = ../VTKCocoaBin/bin/libvtkVolumeRendering.a; sourceTree = SOURCE_ROOT; };
+		8C417DA011154503004F0F29 /* libvtkWidgets.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libvtkWidgets.a; path = ../VTKCocoaBin/bin/libvtkWidgets.a; sourceTree = SOURCE_ROOT; };
+		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* epilepsia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = epilepsia.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+				1FBFBB6C0B0CF0F500D187C4 /* OpenGL.framework in Frameworks */,
+				8C417DA111154503004F0F29 /* libMapReduceMPI.a in Frameworks */,
+				8C417DA211154503004F0F29 /* libmpistubs.a in Frameworks */,
+				8C417DA311154503004F0F29 /* libvtkalglib.a in Frameworks */,
+				8C417DA411154503004F0F29 /* libvtkCharts.a in Frameworks */,
+				8C417DA511154503004F0F29 /* libvtkCommon.a in Frameworks */,
+				8C417DA611154503004F0F29 /* libvtkDICOMParser.a in Frameworks */,
+				8C417DA711154503004F0F29 /* libvtkexoIIc.a in Frameworks */,
+				8C417DA811154503004F0F29 /* libvtkexpat.a in Frameworks */,
+				8C417DA911154503004F0F29 /* libvtkFiltering.a in Frameworks */,
+				8C417DAA11154503004F0F29 /* libvtkfreetype.a in Frameworks */,
+				8C417DAB11154503004F0F29 /* libvtkftgl.a in Frameworks */,
+				8C417DAC11154503004F0F29 /* libvtkGenericFiltering.a in Frameworks */,
+				8C417DAD11154503004F0F29 /* libvtkGeovis.a in Frameworks */,
+				8C417DAE11154503004F0F29 /* libvtkGraphics.a in Frameworks */,
+				8C417DAF11154503004F0F29 /* libvtkHybrid.a in Frameworks */,
+				8C417DB011154504004F0F29 /* libvtkImaging.a in Frameworks */,
+				8C417DB111154504004F0F29 /* libvtkInfovis.a in Frameworks */,
+				8C417DB211154504004F0F29 /* libvtkIO.a in Frameworks */,
+				8C417DB311154504004F0F29 /* libvtkjpeg.a in Frameworks */,
+				8C417DB411154504004F0F29 /* libvtklibxml2.a in Frameworks */,
+				8C417DB511154504004F0F29 /* libvtkmetaio.a in Frameworks */,
+				8C417DB611154504004F0F29 /* libvtkNetCDF.a in Frameworks */,
+				8C417DB711154504004F0F29 /* libvtkParallel.a in Frameworks */,
+				8C417DB811154504004F0F29 /* libvtkpng.a in Frameworks */,
+				8C417DB911154504004F0F29 /* libvtkproj4.a in Frameworks */,
+				8C417DBA11154504004F0F29 /* libvtkRendering.a in Frameworks */,
+				8C417DBB11154504004F0F29 /* libvtksqlite.a in Frameworks */,
+				8C417DBC11154504004F0F29 /* libvtksys.a in Frameworks */,
+				8C417DBD11154504004F0F29 /* libvtktiff.a in Frameworks */,
+				8C417DBE11154504004F0F29 /* libvtkverdict.a in Frameworks */,
+				8C417DBF11154504004F0F29 /* libvtkViews.a in Frameworks */,
+				8C417DC011154504004F0F29 /* libvtkVolumeRendering.a in Frameworks */,
+				8C417DC111154504004F0F29 /* libvtkWidgets.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1FBFBB8C0B0CF19B00D187C4 /* MainController.h */,
+				1FBFBB8D0B0CF19B00D187C4 /* MainController.mm */,
+				1FBFBB8E0B0CF19B00D187C4 /* OrthoPlanesView.h */,
+				1FBFBB8F0B0CF19B00D187C4 /* OrthoPlanesView.mm */,
+				1FBFBB900B0CF19B00D187C4 /* WLWidgetView.h */,
+				1FBFBB910B0CF19B00D187C4 /* WLWidgetView.mm */,
+				1FBFBB700B0CF14300D187C4 /* ApplicationDelegate.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1FBFBB6B0B0CF0F500D187C4 /* OpenGL.framework */,
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+				13E42FB307B3F0F600E4EEF1 /* CoreData.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* epilepsia.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1F90D2060B0CFA43008E848B /* Documentation */ = {
+			isa = PBXGroup;
+			children = (
+				1F90D2070B0CFC33008E848B /* BUILD.txt */,
+			);
+			name = Documentation;
+			sourceTree = "<group>";
+		};
+		1FBFBB710B0CF14300D187C4 /* CLUTs */ = {
+			isa = PBXGroup;
+			children = (
+				1FBFBB720B0CF14300D187C4 /* BlackBody.plist */,
+				1FBFBB730B0CF14300D187C4 /* Cardiac.plist */,
+				1FBFBB740B0CF14300D187C4 /* Flow.plist */,
+				1FBFBB750B0CF14300D187C4 /* GEcolor.plist */,
+				1FBFBB760B0CF14300D187C4 /* GrayRainbow.plist */,
+				1FBFBB770B0CF14300D187C4 /* HotGreen.plist */,
+				1FBFBB780B0CF14300D187C4 /* HotIron.plist */,
+				1FBFBB790B0CF14300D187C4 /* HotMetal.plist */,
+				1FBFBB7A0B0CF14300D187C4 /* Hue1.plist */,
+				1FBFBB7B0B0CF14300D187C4 /* Hue2.plist */,
+				1FBFBB7C0B0CF14300D187C4 /* NIH.plist */,
+				1FBFBB7D0B0CF14300D187C4 /* Rainbow.plist */,
+				1FBFBB7E0B0CF14300D187C4 /* Rainbow2.plist */,
+				1FBFBB7F0B0CF14300D187C4 /* Rainbow3.plist */,
+				1FBFBB800B0CF14300D187C4 /* Spectrum.plist */,
+				1FBFBB810B0CF14300D187C4 /* UCLA.plist */,
+				1FBFBB820B0CF14300D187C4 /* VR Bones.plist */,
+				1FBFBB830B0CF14300D187C4 /* VR Muscles-Bones.plist */,
+				1FBFBB840B0CF14300D187C4 /* VR Red Vessels.plist */,
+			);
+			path = CLUTs;
+			sourceTree = "<group>";
+		};
+		1FBFBB850B0CF14300D187C4 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				1FBFBB860B0CF14300D187C4 /* atamai.tiff */,
+				1FBFBB870B0CF14300D187C4 /* pan.tiff */,
+				1FBFBB880B0CF14300D187C4 /* rotate.tiff */,
+				1FBFBB890B0CF14300D187C4 /* slice.tiff */,
+				1FBFBB8A0B0CF14300D187C4 /* winlev.tiff */,
+				1FBFBB8B0B0CF14300D187C4 /* zoom.tiff */,
+				1F24E8F20B0CF6F1007679D0 /* atamai.tiff */,
+				1F24E8F40B0CF6F9007679D0 /* pan.tiff */,
+				1F24E8F60B0CF6FE007679D0 /* rotate.tiff */,
+				1F24E8F90B0CF707007679D0 /* slice.tiff */,
+				1F24E8FB0B0CF710007679D0 /* winlev.tiff */,
+				1F24E8FD0B0CF717007679D0 /* zoom.tiff */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* epilepsia */ = {
+			isa = PBXGroup;
+			children = (
+				8C417D8011154503004F0F29 /* libMapReduceMPI.a */,
+				8C417D8111154503004F0F29 /* libmpistubs.a */,
+				8C417D8211154503004F0F29 /* libvtkalglib.a */,
+				8C417D8311154503004F0F29 /* libvtkCharts.a */,
+				8C417D8411154503004F0F29 /* libvtkCommon.a */,
+				8C417D8511154503004F0F29 /* libvtkDICOMParser.a */,
+				8C417D8611154503004F0F29 /* libvtkexoIIc.a */,
+				8C417D8711154503004F0F29 /* libvtkexpat.a */,
+				8C417D8811154503004F0F29 /* libvtkFiltering.a */,
+				8C417D8911154503004F0F29 /* libvtkfreetype.a */,
+				8C417D8A11154503004F0F29 /* libvtkftgl.a */,
+				8C417D8B11154503004F0F29 /* libvtkGenericFiltering.a */,
+				8C417D8C11154503004F0F29 /* libvtkGeovis.a */,
+				8C417D8D11154503004F0F29 /* libvtkGraphics.a */,
+				8C417D8E11154503004F0F29 /* libvtkHybrid.a */,
+				8C417D8F11154503004F0F29 /* libvtkImaging.a */,
+				8C417D9011154503004F0F29 /* libvtkInfovis.a */,
+				8C417D9111154503004F0F29 /* libvtkIO.a */,
+				8C417D9211154503004F0F29 /* libvtkjpeg.a */,
+				8C417D9311154503004F0F29 /* libvtklibxml2.a */,
+				8C417D9411154503004F0F29 /* libvtkmetaio.a */,
+				8C417D9511154503004F0F29 /* libvtkNetCDF.a */,
+				8C417D9611154503004F0F29 /* libvtkParallel.a */,
+				8C417D9711154503004F0F29 /* libvtkpng.a */,
+				8C417D9811154503004F0F29 /* libvtkproj4.a */,
+				8C417D9911154503004F0F29 /* libvtkRendering.a */,
+				8C417D9A11154503004F0F29 /* libvtksqlite.a */,
+				8C417D9B11154503004F0F29 /* libvtksys.a */,
+				8C417D9C11154503004F0F29 /* libvtktiff.a */,
+				8C417D9D11154503004F0F29 /* libvtkverdict.a */,
+				8C417D9E11154503004F0F29 /* libvtkViews.a */,
+				8C417D9F11154503004F0F29 /* libvtkVolumeRendering.a */,
+				8C417DA011154503004F0F29 /* libvtkWidgets.a */,
+				1FB4C5050B0D1425000AC966 /* CLUTs */,
+				1F90D2060B0CFA43008E848B /* Documentation */,
+				1FBFBB710B0CF14300D187C4 /* CLUTs */,
+				1FBFBB850B0CF14300D187C4 /* images */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = epilepsia;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* epilepsia_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107310486CEB800E47090 /* Info.plist */,
+				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
+				29B97318FDCFA39411CA2CEA /* MainMenu.nib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* epilepsia */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "epilepsia" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = epilepsia;
+			productInstallPath = "$(HOME)/Applications";
+			productName = epilepsia;
+			productReference = 8D1107320486CEB800E47090 /* epilepsia.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "epilepsia" */;
+			compatibilityVersion = "Xcode 2.4";
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* epilepsia */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* epilepsia */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072A0486CEB800E47090 /* MainMenu.nib in Resources */,
+				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
+				1F24E8F30B0CF6F1007679D0 /* atamai.tiff in Resources */,
+				1F24E8F50B0CF6F9007679D0 /* pan.tiff in Resources */,
+				1F24E8F70B0CF6FE007679D0 /* rotate.tiff in Resources */,
+				1F24E8FA0B0CF707007679D0 /* slice.tiff in Resources */,
+				1F24E8FC0B0CF710007679D0 /* winlev.tiff in Resources */,
+				1F24E8FE0B0CF717007679D0 /* zoom.tiff in Resources */,
+				1FB4C51A0B0D1425000AC966 /* CLUTs in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072D0486CEB800E47090 /* main.m in Sources */,
+				1FBFBB920B0CF19B00D187C4 /* MainController.mm in Sources */,
+				1FBFBB930B0CF19B00D187C4 /* OrthoPlanesView.mm in Sources */,
+				1FBFBB940B0CF19B00D187C4 /* WLWidgetView.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C165DFE840E0CC02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		29B97318FDCFA39411CA2CEA /* MainMenu.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29B97319FDCFA39411CA2CEA /* English */,
+			);
+			name = MainMenu.nib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C01FCF4B08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				HEADER_SEARCH_PATHS = (
+					"$(vtk-include)",
+					"$(atamaivtk-include)",
+				);
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = (
+					"$(vtk-lib)",
+					"$(atamaivtk-lib)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_3)",
+				);
+				LIBRARY_SEARCH_PATHS_QUOTED_1 = "\"$(SRCROOT)/VTKCocoa5.1.0.sdk/Libraries\"";
+				LIBRARY_SEARCH_PATHS_QUOTED_2 = "\"$(SRCROOT)/AtamaiVTKCocoa5.1.0.sdk/Libraries\"";
+				LIBRARY_SEARCH_PATHS_QUOTED_3 = "\"$(SRCROOT)/../AtamaiVTKCocoaSDK-bin/AtamaiVTKCocoa5.1.0.sdk/Libraries\"";
+				LIBRARY_SEARCH_PATHS_QUOTED_4 = "\"$(LOCAL_LIBRARY_DIR)/Frameworks/AtamaiVTKCocoa5.1.0.sdk/Libraries\"";
+				LIBRARY_SEARCH_PATHS_QUOTED_5 = "\"$(LOCAL_LIBRARY_DIR)/Frameworks/VTKCocoa5.1.0.sdk/Libraries\"";
+				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)/AtamaiVTKCocoa5.3.0.sdk/Libraries\"";
+				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_2 = "\"$(SRCROOT)/VTKCocoa5.3.0.sdk/Libraries\"";
+				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_3 = "\"$(SRCROOT)/../VTKCocoaBin/bin\"";
+				PRODUCT_NAME = epilepsia;
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		C01FCF4C08A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = i386;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				HEADER_SEARCH_PATHS = (
+					"$(vtk-include)",
+					"$(atamaivtk-include)",
+				);
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = (
+					"$(vtk-lib)",
+					"$(atamaivtk-lib)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_3)",
+				);
+				LIBRARY_SEARCH_PATHS_QUOTED_1 = "\"$(SRCROOT)/VTKCocoa5.1.0.sdk/Libraries\"";
+				LIBRARY_SEARCH_PATHS_QUOTED_2 = "\"$(SRCROOT)/AtamaiVTKCocoa5.1.0.sdk/Libraries\"";
+				LIBRARY_SEARCH_PATHS_QUOTED_3 = "\"$(SRCROOT)/../AtamaiVTKCocoaSDK-bin/AtamaiVTKCocoa5.1.0.sdk/Libraries\"";
+				LIBRARY_SEARCH_PATHS_QUOTED_4 = "\"$(LOCAL_LIBRARY_DIR)/Frameworks/AtamaiVTKCocoa5.1.0.sdk/Libraries\"";
+				LIBRARY_SEARCH_PATHS_QUOTED_5 = "\"$(LOCAL_LIBRARY_DIR)/Frameworks/VTKCocoa5.1.0.sdk/Libraries\"";
+				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)/AtamaiVTKCocoa5.3.0.sdk/Libraries\"";
+				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_2 = "\"$(SRCROOT)/VTKCocoa5.3.0.sdk/Libraries\"";
+				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_3 = "\"$(SRCROOT)/../VTKCocoaBin/bin\"";
+				PRODUCT_NAME = epilepsia;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "";
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.6.sdk";
+				VALID_ARCHS = "";
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "";
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.6.sdk";
+				VALID_ARCHS = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "epilepsia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4B08A954540054247B /* Debug */,
+				C01FCF4C08A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "epilepsia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

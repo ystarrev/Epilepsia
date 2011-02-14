@@ -1,0 +1,42 @@
+{
+    IBClasses = (
+        {CLASS = ApplicationDelegate; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            ACTIONS = {"" = id; }; 
+            CLASS = FirstResponder; 
+            LANGUAGE = ObjC; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            ACTIONS = {
+                fileNew = id; 
+                fileOpen = id; 
+                mouseFunctionPressed = id; 
+                mrLevelSlider = id; 
+                mrWindowSlider = id; 
+                stripBrain = id; 
+            }; 
+            CLASS = MainController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {orthoPlanesView = OrthoPlanesView; wlWidget = WLWidgetView; }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {CLASS = NSSegmentedControl; LANGUAGE = ObjC; SUPERCLASS = NSControl; }, 
+        {
+            ACTIONS = {setBrainMeshScale = id; setCTElectrodeThreshold = id; stripBrain = id; }; 
+            CLASS = OrthoPlanesView; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {wlWidget = WLWidgetView; }; 
+            SUPERCLASS = vtkCocoaGLView; 
+        }, 
+        {
+            ACTIONS = {clutMenu = id; levelSlider = id; windowSlider = id; }; 
+            CLASS = WLWidgetView; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {clutMenu = NSPopUpButton; }; 
+            SUPERCLASS = vtkCocoaGLView; 
+        }, 
+        {CLASS = vtkCocoaGLView; LANGUAGE = ObjC; SUPERCLASS = NSView; }
+    ); 
+    IBVersion = 1; 
+}

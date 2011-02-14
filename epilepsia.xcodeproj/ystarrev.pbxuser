@@ -1,0 +1,243 @@
+// !$*UTF8*$!
+{
+	1FBFBB700B0CF14300D187C4 /* ApplicationDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {489, 663}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRect = "{{0, 0}, {489, 663}}";
+		};
+	};
+	1FBFBB8D0B0CF19B00D187C4 /* MainController.mm */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {813, 2002}}";
+			sepNavSelRange = "{4151, 21}";
+			sepNavVisRange = "{3090, 1405}";
+			sepNavVisRect = "{{0, 1423}, {489, 663}}";
+			sepNavWindowFrame = "{{75, 41}, {1167, 832}}";
+		};
+	};
+	1FBFBB8E0B0CF19B00D187C4 /* OrthoPlanesView.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {830, 1196}}";
+			sepNavSelRange = "{52, 0}";
+			sepNavVisRange = "{0, 771}";
+			sepNavVisRect = "{{0, 175}, {1128, 703}}";
+			sepNavWindowFrame = "{{38, 90}, {1288, 762}}";
+		};
+	};
+	1FBFBB8F0B0CF19B00D187C4 /* OrthoPlanesView.mm */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {978, 6474}}";
+			sepNavSelRange = "{6344, 76}";
+			sepNavVisRange = "{5543, 1582}";
+			sepNavVisRect = "{{0, 5829}, {850, 399}}";
+		};
+	};
+	1FBFBB910B0CF19B00D187C4 /* WLWidgetView.mm */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {668, 4242}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRect = "{{0, 3579}, {489, 663}}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 8C1E102F0C90EA10002F6DBB /* epilepsia */;
+		activeSDKPreference = macosx10.6;
+		activeTarget = 8D1107260486CEB800E47090 /* epilepsia */;
+		addToTargets = (
+			8D1107260486CEB800E47090 /* epilepsia */,
+		);
+		codeSenseManager = 8C1E10550C90EA25002F6DBB /* Code sense */;
+		executables = (
+			8C1E102F0C90EA10002F6DBB /* epilepsia */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					635,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXSymbolsDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXSymbolsDataSource_SymbolNameID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					16,
+					200,
+					50,
+					200,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXSymbolsDataSource_SymbolTypeIconID,
+					PBXSymbolsDataSource_SymbolNameID,
+					PBXSymbolsDataSource_SymbolTypeID,
+					PBXSymbolsDataSource_ReferenceNameID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.XCSCMDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					20,
+					372,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_SCM_ColumnID,
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 286565457;
+			PBXWorkspaceStateSaveDate = 286565457;
+		};
+		perUserProjectItems = {
+			8C417DCA11154753004F0F29 /* PBXTextBookmark */ = 8C417DCA11154753004F0F29 /* PBXTextBookmark */;
+			8C417DCB11154753004F0F29 /* PBXTextBookmark */ = 8C417DCB11154753004F0F29 /* PBXTextBookmark */;
+			8C417DCC11154753004F0F29 /* XCBuildMessageTextBookmark */ = 8C417DCC11154753004F0F29 /* XCBuildMessageTextBookmark */;
+			8C417DCD11154753004F0F29 /* PBXTextBookmark */ = 8C417DCD11154753004F0F29 /* PBXTextBookmark */;
+			8C43105D0C93778F00078D91 /* PBXTextBookmark */ = 8C43105D0C93778F00078D91 /* PBXTextBookmark */;
+			8C43105E0C93778F00078D91 /* PBXTextBookmark */ = 8C43105E0C93778F00078D91 /* PBXTextBookmark */;
+		};
+		sourceControlManager = 8C1E10540C90EA25002F6DBB /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	8C1E102F0C90EA10002F6DBB /* epilepsia */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = epilepsia;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	8C1E10540C90EA25002F6DBB /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 1;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+		scmType = scm.subversion;
+	};
+	8C1E10550C90EA25002F6DBB /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	8C417DCA11154753004F0F29 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1FBFBB8D0B0CF19B00D187C4 /* MainController.mm */;
+		name = "MainController.mm: 136";
+		rLen = 21;
+		rLoc = 4151;
+		rType = 0;
+		vrLen = 1405;
+		vrLoc = 3090;
+	};
+	8C417DCB11154753004F0F29 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1FBFBB8F0B0CF19B00D187C4 /* OrthoPlanesView.mm */;
+		name = "OrthoPlanesView.mm: 177";
+		rLen = 76;
+		rLoc = 6344;
+		rType = 0;
+		vrLen = 1582;
+		vrLoc = 5543;
+	};
+	8C417DCC11154753004F0F29 /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "VtkVolumeGLSLRayCastMapper.h: No such file or directory";
+		fRef = 1FBFBB8E0B0CF19B00D187C4 /* OrthoPlanesView.h */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 2;
+		rType = 1;
+	};
+	8C417DCD11154753004F0F29 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1FBFBB8E0B0CF19B00D187C4 /* OrthoPlanesView.h */;
+		name = "OrthoPlanesView.h: 3";
+		rLen = 0;
+		rLoc = 52;
+		rType = 0;
+		vrLen = 1416;
+		vrLoc = 0;
+	};
+	8C43105D0C93778F00078D91 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1FBFBB910B0CF19B00D187C4 /* WLWidgetView.mm */;
+		name = "WLWidgetView.mm: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1310;
+		vrLoc = 7656;
+	};
+	8C43105E0C93778F00078D91 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1FBFBB700B0CF14300D187C4 /* ApplicationDelegate.m */;
+		name = "ApplicationDelegate.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 303;
+		vrLoc = 0;
+	};
+	8D1107260486CEB800E47090 /* epilepsia */ = {
+		activeExec = 0;
+		executables = (
+			8C1E102F0C90EA10002F6DBB /* epilepsia */,
+		);
+	};
+}

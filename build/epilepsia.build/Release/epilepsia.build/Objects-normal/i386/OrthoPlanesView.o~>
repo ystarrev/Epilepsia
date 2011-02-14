@@ -1,0 +1,24 @@
+In file included from /Developer/SDKs/MacOSX10.5.sdk/usr/include/c++/4.0.0/backward/strstream:51,
+                 from /Users/ystarrev/Development/epilepsia/VTKCocoa5.3.0.sdk/Headers/vtkIOStream.h:112,
+                 from /Users/ystarrev/Development/epilepsia/VTKCocoa5.3.0.sdk/Headers/vtkSystemIncludes.h:40,
+                 from /Users/ystarrev/Development/epilepsia/VTKCocoa5.3.0.sdk/Headers/vtkIndent.h:24,
+                 from /Users/ystarrev/Development/epilepsia/VTKCocoa5.3.0.sdk/Headers/vtkObjectBase.h:43,
+                 from /Users/ystarrev/Development/epilepsia/VTKCocoa5.3.0.sdk/Headers/vtkObject.h:41,
+                 from /Users/ystarrev/Development/epilepsia/VTKCocoa5.3.0.sdk/Headers/vtkAlgorithm.h:32,
+                 from /Users/ystarrev/Development/epilepsia/VTKCocoa5.3.0.sdk/Headers/vtkAbstractMapper.h:28,
+                 from /Users/ystarrev/Development/epilepsia/VTKCocoa5.3.0.sdk/Headers/vtkAbstractMapper3D.h:32,
+                 from /Users/ystarrev/Development/epilepsia/VTKCocoa5.3.0.sdk/Headers/vtkAbstractVolumeMapper.h:27,
+                 from /Users/ystarrev/Development/epilepsia/VTKCocoa5.3.0.sdk/Headers/vtkVolumeMapper.h:28,
+                 from /Users/ystarrev/Development/epilepsia/AtamaiVTKCocoa5.3.0.sdk/Headers/vtkVolumeGLSLRayCastMapper.h:48,
+                 from /Users/ystarrev/Development/epilepsia/OrthoPlanesView.h:3,
+                 from /Users/ystarrev/Development/epilepsia/OrthoPlanesView.mm:1:
+/Developer/SDKs/MacOSX10.5.sdk/usr/include/c++/4.0.0/backward/backward_warning.h:32:2: warning: #warning This file includes at least one deprecated or antiquated header. Please consider using one of the 32 headers found in section 17.4.1.2 of the C++ standard. Examples include substituting the <X> header for the <X.h> header for C++ includes, or <iostream> instead of the deprecated header <iostream.h>. To disable this warning use -Wno-deprecated.
+In file included from /Users/ystarrev/Development/epilepsia/VTKCocoa5.3.0.sdk/Headers/vtkVariant.h:35,
+                 from /Users/ystarrev/Development/epilepsia/VTKCocoa5.3.0.sdk/Headers/vtkAbstractArray.h:45,
+                 from /Users/ystarrev/Development/epilepsia/VTKCocoa5.3.0.sdk/Headers/vtkDataArray.h:37,
+                 from /Users/ystarrev/Development/epilepsia/VTKCocoa5.3.0.sdk/Headers/vtkUnsignedCharArray.h:29,
+                 from /Users/ystarrev/Development/epilepsia/VTKCocoa5.3.0.sdk/Headers/vtkLookupTable.h:34,
+                 from /Users/ystarrev/Development/epilepsia/OrthoPlanesView.mm:15:
+/Users/ystarrev/Development/epilepsia/VTKCocoa5.3.0.sdk/Headers/vtkStdString.h:25:54: error: vtkstd/string: No such file or directory
+/Users/ystarrev/Development/epilepsia/OrthoPlanesView.mm: In function ‘void -[OrthoPlanesView setMRHeadInput:](OrthoPlanesView*, objc_selector*, vtkImageData*)’:
+/Users/ystarrev/Development/epilepsia/OrthoPlanesView.mm:432: error: cannot convert ‘vtkVolumeGLSLRayCastMapper*’ to ‘vtkAtamaiOpenGLVolumeTextureMapper3D*’ in assignment

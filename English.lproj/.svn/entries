@@ -1,0 +1,47 @@
+8
+
+dir
+33
+http://atamai.com/svnpriv/xcode/epilepsia/trunk/English.lproj
+http://atamai.com/svnpriv
+
+
+
+2006-11-20T23:28:25.963054Z
+33
+ystarrev
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+8e0e23c1-dc1b-0410-b515-c623a671a640
+
+InfoPlist.strings
+file
+47
+
+
+
+2006-11-17T04:48:56.000000Z
+5c5518e3ba6319a770f59a6ef172379b
+2006-11-16T19:54:48.190255Z
+22
+glehmann
+has-props
+
+MainMenu.nib
+dir
+
+MainMenu~.nib
+dir
+

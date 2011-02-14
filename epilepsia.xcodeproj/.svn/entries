@@ -1,0 +1,40 @@
+8
+
+dir
+33
+http://atamai.com/svnpriv/xcode/epilepsia/trunk/epilepsia.xcodeproj
+http://atamai.com/svnpriv
+
+
+
+2006-11-19T04:49:41.101961Z
+30
+ystarrev
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+8e0e23c1-dc1b-0410-b515-c623a671a640
+
+project.pbxproj
+file
+34
+
+
+
+2006-11-21T20:15:27.000000Z
+cbb0a973f205410b4578d80ff8e95aef
+2006-11-21T20:15:39.465904Z
+34
+ystarrev
+
