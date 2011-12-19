@@ -1,0 +1,77 @@
+#
+# Build VTK with for one or more of arch ppc, ppc_64, i386, i386_64:
+#
+
+//Build VTK examples.
+BUILD_EXAMPLES:BOOL=OFF
+
+//Build VTK with shared libraries.
+BUILD_SHARED_LIBS:BOOL=OFF
+
+//Build the testing tree.
+BUILD_TESTING:BOOL=OFF
+
+//Build classes using Carbon API.
+VTK_USE_CARBON:BOOL=OFF
+
+//Build classes using Cocoa API.
+VTK_USE_COCOA:BOOL=ON
+
+//Wrap VTK classes into the Java language.
+VTK_WRAP_JAVA:BOOL=OFF
+
+//Wrap VTK classes into the Python language.
+VTK_WRAP_PYTHON:BOOL=OFF
+
+//Wrap VTK classes into the TCL language.
+VTK_WRAP_TCL:BOOL=OFF
+
+#
+# Build VTKCocoaSDK
+#
+
+>> svn co http://atamai.com/svnpriv/xcode/sdks/VTKCocoaSDK/trunk VTKCocoaSDK
+
+// VTK i386
+VTK_i386_DIR:PATH=/path/to/VTKbin
+
+- similarly for any other architectures
+
+- only need to run cmake, not make
+
+#
+# Build AtamaiVTK for one or more of arch ppc, ppc_64, i386, i386_64:
+#
+
+- make sure ITK_DIR is not set (no support for ITK yet)
+
+#
+# Build AtamaiVTKSDK
+#
+
+>> svn co http://atamai.com/svnpriv/xcode/sdks/AtamaiVTKCocoaSDK/trunk AtamaiVTKCocoaSDK
+
+// VTK i386
+AtamaiVTK_i386_DIR:PATH=/path/to/AtamaiVTKbin
+
+- similarly for any other architectures
+
+- only need to run cmake, not make
+
+#
+# Add SDKs to epilepsia
+#
+
+>> cd epilepsia
+
+>> ln -s /path/to/VTKCocoaSDKbin/VTKCocoa5.1.0.sdk .
+
+>> ln -s /path/to/AtamaiVTKCocoaSDKbin/AtamaiVTK5.1.0.sdk .
+
+#
+# Xcode
+#
+
+- Fire up Xcode
+
+- Build and go

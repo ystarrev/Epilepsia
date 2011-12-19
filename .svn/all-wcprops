@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svnpriv/!svn/ver/33/xcode/epilepsia/trunk
+END
+OrthoPlanesView.h
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svnpriv/!svn/ver/47/xcode/epilepsia/trunk/OrthoPlanesView.h
+END
+main.m
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svnpriv/!svn/ver/22/xcode/epilepsia/trunk/main.m
+END
+MainController.mm
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svnpriv/!svn/ver/47/xcode/epilepsia/trunk/MainController.mm
+END
+epilepsia_Prefix.pch
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svnpriv/!svn/ver/22/xcode/epilepsia/trunk/epilepsia_Prefix.pch
+END
+OrthoPlanesView.mm
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svnpriv/!svn/ver/47/xcode/epilepsia/trunk/OrthoPlanesView.mm
+END
+Info.plist
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svnpriv/!svn/ver/46/xcode/epilepsia/trunk/Info.plist
+END
+WLWidgetView.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svnpriv/!svn/ver/41/xcode/epilepsia/trunk/WLWidgetView.h
+END
+ApplicationDelegate.m
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svnpriv/!svn/ver/22/xcode/epilepsia/trunk/ApplicationDelegate.m
+END
+WLWidgetView.mm
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svnpriv/!svn/ver/41/xcode/epilepsia/trunk/WLWidgetView.mm
+END
+BUILD.txt
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svnpriv/!svn/ver/24/xcode/epilepsia/trunk/BUILD.txt
+END
+MainController.h
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svnpriv/!svn/ver/44/xcode/epilepsia/trunk/MainController.h
+END
